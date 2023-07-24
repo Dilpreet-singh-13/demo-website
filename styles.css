@@ -1,0 +1,93 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+.mynabbar{
+    background-color: rgb(1, 255, 170);
+    padding: 12px 14px;
+}
+
+.mynavbar a{
+    margin-right: 4px;
+}
+
+.mynabbar a:hover{
+    background-color: antiquewhite;
+    padding: 12px 14px;
+}
+
+/* header{
+    min-height: 50vh;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(170, 251, 250);
+} */
+
+.about{
+    margin-top: 50px;
+}
+
+.about .content{
+    display: flex;
+}
+
+.about h1{
+    text-align: center;
+}
+
+.about img{
+    max-width: 350px;
+    margin-left: 30px;
+}
+
+.about p{
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.about button{
+    margin-left: 20px;
+    color:chartreuse;
+    background-color:cornflowerblue;
+}
+
+/* .service h1{
+    text-align: center;
+} */
+
+/* .card{
+    padding: 30px 50px;
+    background-color: bisque;
+    margin: 0px 30px;
+    border: solid black;
+} */
+
+/* .container{
+    display: flex;
+    justify-content: center;
+} */
+
+.projects{
+    text-align: center;
+}
+
+.projects .card{
+    padding: 30px 30px;
+}
+
+.contact h1{
+    text-align: center;
+}
+
+.inputs{
+    display: flex;
+    margin:0px 300px;
+    padding: 2px;
+    margin-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
